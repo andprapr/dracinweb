@@ -25,4 +25,8 @@ app.use('/api', apiRoutes);
 
 app.listen(PORT, () => {
     console.log(`Server berjalan di http://localhost:${PORT}`);
+
 });
+
+// TAMBAHKAN BARIS INI UNTUK VERCEL:
+export default app;
